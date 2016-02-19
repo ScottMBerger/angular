@@ -11,6 +11,8 @@ gem 'sdoc',         '0.4.0', group: :doc
 gem 'bower-rails'
 gem 'angular-rails-templates'
 gem 'devise'
+gem 'rails_admin'
+gem 'pusher'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'
