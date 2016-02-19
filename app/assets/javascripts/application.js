@@ -15,5 +15,9 @@
 //= require angular
 //= require angular-route
 //= require angular-rails-templates
+//= require bootstrap
+//= require pusher
+//= require pusher-angular
 //= require_tree ../templates
 //= require_tree .
+

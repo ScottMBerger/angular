@@ -1,8 +1,6 @@
-angular
-    .module('AngularRails', [
-        'ngRoute',
-        'templates'
-    ]).config(function ($routeProvider, $locationProvider) {
+
+angular.module('AngularRails', ['ngRoute','templates','pusher-angular']).config(
+    function ($routeProvider, $locationProvider) {
         $routeProvider
             .when('/', {
                 templateUrl: 'home.html',
